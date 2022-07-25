@@ -1,0 +1,77 @@
+.entermobile_title{
+    position: absolute;
+    width: 261px;
+    height: 31px;
+    left: 200px;
+    top: 201px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 130%;
+    display: flex;
+    align-items: center;
+    color: #1A1A1A;
+    letter-spacing: 0.1rem;
+}
+.entermobile_input_box{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    height: 40px;
+    left: 13.89%;
+    right: 65.28%;
+    top: 248px;
+    background: #F4F4F5;
+    box-shadow: 1px 1px 2px rgba(255, 255, 255, 0.3), -1px -1px 2px rgba(183, 183, 184, 0.5), inset -1px 1px 2px rgba(183, 183, 184, 0.2), inset 1px -1px 2px rgba(183, 183, 184, 0.2), inset -1px -1px 2px rgba(255, 255, 255, 0.9), inset 1px 1px 3px rgba(183, 183, 184, 0.9);
+    border-radius: 10px;
+    padding-left: 10px;
+}
+.PhoneInputInput{
+    border: none;
+    background-color: transparent !important;
+    border-width: 0;
+    outline: 0;
+}
+.entermobile_checkbox{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 200px;
+    top: 304px;
+
+    background: #F4F4F5;
+    box-shadow: 1px 1px 2px rgba(255, 255, 255, 0.3), -1px -1px 2px rgba(183, 183, 184, 0.5), inset -1px 1px 2px rgba(183, 183, 184, 0.2), inset 1px -1px 2px rgba(183, 183, 184, 0.2), inset -1px -1px 2px rgba(255, 255, 255, 0.9), inset 1px 1px 3px rgba(183, 183, 184, 0.9);
+    border-radius: 4px;
+}
+.entermobile_terms{
+    position: absolute;
+    width: 397px;
+    height: 36px;
+    left: 232px;
+    top: 304px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 1px;
+    color: #000000;
+}
+.footer_background{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+ 
+.footer_image{
+    position: absolute;
+    width: 292px;
+    height: 370px;
+    left: 524px;
+    top: 400px;
+    
+    /* background: url(.png); */
+}

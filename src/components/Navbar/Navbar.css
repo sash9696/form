@@ -1,0 +1,21 @@
+.navbar_next{
+    position: absolute;
+    left: 82.29%;
+    right: 13.89%;
+    top: 5.86%;
+    bottom: 88.77%;
+    height: 50px;
+    width: 50px;
+    background: linear-gradient(133.03deg, #585757 -31.65%, #1E1D1D 110.33%);
+    box-shadow: -4px -4px 10px rgba(255, 255, 255, 0.15), 4px 4px 10px rgba(0, 0, 0, 0.15);
+    border-radius: 50px;
+    transform: matrix(0, 1, 1, 0, 0, 0);
+    cursor: pointer;
+}
+.navbar_arrow{
+    position: absolute;
+    left: 83.83%;
+    right: 14.86%;
+    top: 8.02%;
+    bottom: 91.28%;
+}

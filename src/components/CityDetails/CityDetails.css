@@ -1,0 +1,258 @@
+.city_details_title{
+    position: absolute;
+    width: 147px;
+    height: 18px;
+    left: 200px;
+    top: 125px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #6776FF;
+}
+.city_details_address_title{
+    position: absolute;
+    width: 312.78px;
+    height: 31.27px;
+    left: 200px;
+    top: 211.25px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 130%;
+    display: flex;
+    align-items: center;
+    color: #1A1A1A;
+}
+.city_details_address_input{
+    position: absolute;
+    height: 40.35px;
+    left: 13.89%;
+    right: 65.29%;
+    top: 258.65px;
+    background: #F4F4F5;
+    box-shadow: 1px 1px 2px rgba(255, 255, 255, 0.3), -1px -1px 2px rgba(183, 183, 184, 0.5), inset -1px 1px 2px rgba(183, 183, 184, 0.2), inset 1px -1px 2px rgba(183, 183, 184, 0.2), inset -1px -1px 2px rgba(255, 255, 255, 0.9), inset 1px 1px 3px rgba(183, 183, 184, 0.9);
+    border-radius: 10px;
+}
+.city_details_address_input > input{
+    width: 90%;
+    border: none;
+    outline: none;
+    padding-left: 20px;
+}
+.city_details_preferred{
+    position: absolute;
+    width: 259.7px;
+    height: 31.63px;
+    left: 200px;
+    top: 333.37px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 130%;    
+    display: flex;
+    align-items: center;
+    color: #1A1A1A; 
+}
+.city_details_preferred_input{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 16px;
+    position: absolute;
+    width: 300px;
+    height: 40px;
+    left: 200px;
+    top: 381px;
+    background: #F4F4F5;
+    box-shadow: 1px 1px 2px rgba(255, 255, 255, 0.3), -1px -1px 2px rgba(183, 183, 184, 0.5), inset -1px 1px 2px rgba(183, 183, 184, 0.2), inset 1px -1px 2px rgba(183, 183, 184, 0.2), inset -1px -1px 2px rgba(255, 255, 255, 0.9), inset 1px 1px 3px rgba(183, 183, 184, 0.9);
+    border-radius: 10px;
+
+}
+.city_details_preferred_input > input{
+    width: 100%;
+    border: none;
+    outline: none;
+    box-shadow: none;
+    z-index: 999;
+}
+.city_details_preferred_logo{
+    position: absolute;
+    width: 300px;
+    height: 40px;
+    left: 500px;
+    top: 407px;
+    width: 12.02px;
+    height: 6px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    cursor: pointer;
+    z-index: 1000;
+}
+.city_details_select_title{
+    position: absolute;
+    width: 207px;
+    height: 20px;
+    left: 200px;
+    top: 437px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 1px;
+    color: #000000;
+    margin-top: 20px;
+}
+.city_container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 4px 8px;
+    gap: 10px;
+    background: #FFFFFF;
+    box-shadow: -5px 5px 10px rgba(214, 213, 218, 0.2), 5px -5px 10px rgba(214, 213, 218, 0.2), 5px 5px 13px rgba(214, 213, 218, 0.9), inset 1px 1px 2px rgba(255, 255, 255, 0.3), inset -1px -1px 2px rgba(214, 213, 218, 0.5);
+    border-radius: 10px;cursor: pointer;
+}
+.one{
+    position: absolute;
+    width: 89px;
+    height: 40px;
+    left: 200px;
+    top: 485px;
+    
+}
+.two{
+    position: absolute;
+    width: 108px;
+    height: 40px;
+    left: 310px;
+    top: 485px;
+}
+.three{
+    position: absolute;
+    width: 61px;
+    height: 40px;
+    left: 438px;
+    top: 485px;
+}
+.four{
+    position: absolute;
+    width: 60px;
+    height: 40px;
+    left: 520px;
+    top: 485px;
+}
+.city_text{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 1px;
+    color: #6776FF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.footer_image{
+    position: absolute;
+    width: 270px;
+    height: 312px;
+    left: 765px;
+    top: 471px;
+}
+@media only screen and (max-width:500px) {
+    .city_details_title{
+        position: absolute;
+        width: 147px;
+        height: 18px;
+        left: 30px;
+        top: 76.96px;
+    }
+    .city_details_address_title{
+        position: absolute;
+        width: 236px;
+        height: 27px;
+        left: 30px;
+        top: 155px;
+    }
+    .city_details_address_input{
+        position: absolute;
+        width: 300px;
+        height: 40px;
+        left: 30px;
+        top: 194px;
+        margin-top: 25px;
+
+    }
+    .city_details_preferred{
+        position: absolute;
+        width: 195px;
+        height: 27px;
+        left: 30px;
+        top: 292px;
+        font-size: 1rem;
+    }
+    .city_details_preferred_input{
+        position: absolute;
+        width: 300px;
+        height: 40px;
+        left: 30px;
+        top: 340px;
+    }
+    .city_details_select_title{
+        position: absolute;
+        width: 207px;
+        height: 20px;
+        left: 30px;
+        top: 353px;
+    }
+    .one{
+        position: absolute;
+        width: 80px;
+        height: 40px;
+        left: 30px;
+        top: 440px;
+        margin-right: 25px;
+    }
+    .two{
+        position: absolute;
+        width: 97px;
+        height: 40px;
+        left: 122px;
+        top: 440px;
+        margin-right: 25px;
+    }
+    .three{
+        position: absolute;
+        width: 56px;
+        height: 40px;
+        left: 231px;
+        top: 440px;
+        margin-right: 25px;
+
+    }
+    .city_details_select_title{
+        position: absolute;
+        width: 207px;
+        height: 20px;
+        left: 30px;
+        top: 383px;
+    }
+
+
+}

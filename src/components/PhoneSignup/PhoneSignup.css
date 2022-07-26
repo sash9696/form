@@ -28,10 +28,14 @@
     padding-left: 10px;
 }
 .PhoneInputInput{
-    border: none;
-    background-color: transparent !important;
-    border-width: 0;
-    outline: 0;
+    flex: 1;
+    height: 32px;
+    background: transparent ;
+    outline-width: 0;
+    border: transparent;
+    background-color:rgba(0,0,0,0);
+    color: gray;
+    box-shadow: none;
 }
 .entermobile_checkbox{
     position: absolute;
@@ -74,4 +78,45 @@
     top: 400px;
     
     /* background: url(.png); */
+}
+@media only screen and (max-width:500px) {
+    .entermobile_title{
+        position: absolute;
+        width: 264px;
+        height: 36px;
+        left: 30px;
+        top: 116px;
+    }
+    .entermobile_input_box{
+        position: absolute;
+        height: 40px;
+        left: 7.25%;
+        right: 20.29%;
+        top: 164px;
+
+    }
+    .entermobile_checkbox{
+        position: absolute;
+        width: 20px;
+        height: 20px;
+        left: 30px;
+        top: 216px;
+    }
+    .entermobile_terms{
+        position: absolute;
+        width: 279px;
+        height: 54px;
+        left: 56px;
+        top: 216px;
+    }
+    .footer_image{
+        position: absolute;
+        width: 211px;
+        height: 252px;
+        left: 61px !important;
+        top: 583px  !important;
+    }
+   
+
+    
 }

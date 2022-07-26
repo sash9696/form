@@ -19,3 +19,20 @@
     top: 8.02%;
     bottom: 91.28%;
 }
+@media only screen and (max-width:500px) {
+    .navbar_arrow{
+        position: absolute;
+        left: 87.4%;
+        right: 8.83%;
+        top: 5.95%;
+        bottom: 92.89%;
+    }
+    .navbar_next{
+        position: absolute;
+        left: 82.61%;
+        right: 7.25%;
+        top: 4.08%;
+        bottom: 90.22%;
+
+    }
+}

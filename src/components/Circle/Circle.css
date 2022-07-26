@@ -1,0 +1,94 @@
+.circle_one, .circle_two, .circle_three{
+    border-radius: 10px;
+    z-index: 20;
+}
+.blue{
+    background: linear-gradient(135deg, #6270F2 0%, #6C7CFF 100%) !important;
+
+}
+.grey{
+    background-color: lightgray;
+
+}
+.circle_one{
+    position: absolute;
+    width: 17.99px;
+    height: 18px;
+    left: 201px;
+    top: 159px;
+    background: linear-gradient(135deg, #6270F2 0%, #6C7CFF 100%);
+}
+.circle_two{
+    position: absolute;
+    width: 17.99px;
+    height: 18px;
+    left: 247px;
+    top: 159px;
+    background-color: lightgray;
+
+}
+.circle_three{
+    position: absolute;
+    width: 17.99px;
+    height: 18px;
+    left: 297.01px;
+    top: 159px;
+    background-color: lightgray;
+
+}
+.one, .two, .three{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FAFAFA;
+    z-index: 999;
+}
+.one{
+    position: absolute;
+    width: 12.23px;
+    height: 13.68px;
+    left: 206.88px;
+    top: 161.16px;
+}
+.two{
+    position: absolute;
+    width: 12.23px;
+    height: 13.68px;
+    left: 252.88px;
+    top: 161.16px;
+}
+.three{
+    position: absolute;
+    width: 12.23px;
+    height: 13.68px;
+    left: 302.89px;
+    top: 161.16px;
+}
+@media only screen and (max-width:500px) {
+    .circle_one{
+        position: absolute;
+        width: 12.23px;
+        height: 13.68px;
+        left: 32.88px;
+        top: 109.12px;
+    }
+    .circle_two{
+        position: absolute;
+        width: 12.23px;
+        height: 13.68px;
+        left: 82.88px;
+        top: 109.12px;
+    }
+    .circle_three{
+        position: absolute;
+        width: 12.23px;
+        height: 13.68px;
+        left: 132.89px;
+        top: 109.12px;
+}
+}

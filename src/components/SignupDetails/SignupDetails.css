@@ -1,0 +1,192 @@
+.signup_details_container{
+    width: 100%;
+}
+.signup_details_title{
+    position: absolute;
+    width: 147px;
+    height: 18px;
+    left: 200px;
+    top: 125px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #6776FF;
+}
+.border{
+    position: absolute;
+    width: 92.03px;
+    height: 0px;
+    left: 218.01px;
+    top: 168.01px;
+    border: 1px dashed #C4C4C4;
+    z-index: 1;
+}
+.signup_details_heading{
+    position: absolute;
+    width: 308px;
+    height: 31px;
+    left: 200px;
+    top: 214.16px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 130%;
+    display: flex;
+    align-items: center;
+    color: #1A1A1A;
+}
+.signup_details_input{
+    position: absolute;
+    height: 40px;
+    left: 13.89%;
+    right: 65.28%;
+    top: 261.16px;
+    background: #F4F4F5;
+    box-shadow: 1px 1px 2px rgba(255, 255, 255, 0.3), -1px -1px 2px rgba(183, 183, 184, 0.5), inset -1px 1px 2px rgba(183, 183, 184, 0.2), inset 1px -1px 2px rgba(183, 183, 184, 0.2), inset -1px -1px 2px rgba(255, 255, 255, 0.9), inset 1px 1px 3px rgba(183, 183, 184, 0.9);
+    border-radius: 10px;
+}
+.signup_details_input > input{
+    width: 100%;
+    height: 40px;
+    border: none;
+    outline: none;
+    padding-left: 20px;
+}
+.signup_details_text{
+    position: absolute;
+    width: 90px;
+    height: 31px;
+    left: 200px;
+    top: 333.16px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 130%;
+    display: flex;
+    align-items: center;
+    color: #1A1A1A;
+}
+.signup_details_image_container_one{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+    gap: 8px;
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    left: 200px;
+    top: 380.16px;
+    background: #FFFFFF;
+    box-shadow: -5px 5px 10px rgba(214, 213, 218, 0.2), 5px -5px 10px rgba(214, 213, 218, 0.2), 5px 5px 13px rgba(214, 213, 218, 0.9), inset 1px 1px 2px rgba(255, 255, 255, 0.3), inset -1px -1px 2px rgba(214, 213, 218, 0.5);
+    border-radius: 10px;
+}
+.signup_details_image_one{
+    width: 60px;
+    height: 60px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.signup_details_image_container_two{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+    gap: 8px;
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    left: 276px;
+    top: 380.16px;
+    background: #FFFFFF;
+    box-shadow: -5px 5px 10px rgba(214, 213, 218, 0.2), 5px -5px 10px rgba(214, 213, 218, 0.2), 5px 5px 13px rgba(214, 213, 218, 0.9), inset 1px 1px 2px rgba(255, 255, 255, 0.3), inset -1px -1px 2px rgba(214, 213, 218, 0.5);
+    border-radius: 10px;
+    margin-left: 30px;
+}
+.signup_details_image_two{
+    width: 60px;
+    height: 60px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.footer_background{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+ 
+.footer_image{
+    position: absolute;
+    width: 300px;
+    height: 301px;
+    left: 599px;
+    top: 490px;
+}
+
+@media only screen and (max-width:500px) {
+    .border{
+        position: absolute;
+        width: 92.03px;
+        height: 0px;
+        left: 48.01px;
+        top: 115.96px;
+    }
+    .signup_details_title{
+        position: absolute;
+        width: 147px;
+        height: 18px;
+        left: 30px;
+        top: 76.96px;
+    }
+    .signup_details_heading{
+        position: absolute;
+        width: 233px;
+        height: 27px;
+        left: 30px;
+        top: 154.96px;
+    }
+    .signup_details_input{
+        position: absolute;
+        width: 300px;
+        height: 40px;
+        left: 30px;
+        top: 193.96px;
+        margin-top: 25px;
+    }
+    .signup_details_text{
+        position: absolute;
+        width: 68px;
+        height: 27px;
+        left: 30px;
+        top: 257px;
+        margin-top: 25px;
+    }
+    .signup_details_image_container_one{
+        position: absolute;
+        width: 69px;
+        height: 69px;
+        left: 30px;
+        top: 296px;
+        margin-top: 40px;
+    }
+    .signup_details_image_container_two{
+        position: absolute;
+        width: 69px;
+        height: 69px;
+        left: 111px;
+        top: 296.27px;
+        margin-top: 40px;
+
+    }
+}
